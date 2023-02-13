@@ -9,5 +9,24 @@
 </head>
 <body>
     <center><img src="pleading.gif" alt=""></center>
+    <p id="msg"></p>
+    <script>
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        job()
+        async function job(){
+            let element1=document.getElementById("msg")
+            s=""
+            s1 = "My name is Sumit Kumar"
+            element1.innerHTML="";
+            for(let i=0;i<s1.length;i++){
+                s+=s1[i];
+                element1.innerHTML=s;
+                await sleep(200);
+            }
+            await sleep(1000);
+        }
+    </script>
 </body>
 </html>

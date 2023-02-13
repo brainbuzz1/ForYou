@@ -5,3 +5,8 @@
 img{
     max-width: 90vw;
 }
+#msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
