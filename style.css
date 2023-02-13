@@ -2,10 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url("sorry.jpeg");
+}
 img{
     max-width: 90vw;
 }
 #msg{
+    width: fit-content;
+    background-color: azure;
     text-align: center;
     max-width: 95vw;
 }
