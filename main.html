@@ -9,7 +9,7 @@
 </head>
 <body>
     <center><img src="pleading.gif" alt=""></center>
-    <p id="msg"></p>
+    <center><p id="msg"></p></center>
     <script>
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
@@ -18,7 +18,7 @@
         async function job(){
             let element1=document.getElementById("msg")
             s=""
-            s1 = "Tum jo ruth jati ho <br>to udaas ho jata hu mai <br>Tumhari narazagi seh nai pata hu mai"
+            s1 = "Tum jo ruth jati ho <br>To udaas ho jata hu mai <br>Tumhari narazagi seh nai pata hu mai"
             element1.innerHTML="";
             for(let i=0;i<s1.length;i++){
                 s+=s1[i];
